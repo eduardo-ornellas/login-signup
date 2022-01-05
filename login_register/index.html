@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Sign up </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="signup">
+        <div class="registro">
+        <div class="title-login">Login
+        </div>
+         <form class="registro-form"> 
+         <input type="text" placeholder="usuário"/>
+         <input type="text" placeholder="senha"/>
+         <input type="text" placeholder="e-mail"/>
+         <p class="mensagem">Já possui uma conta? <a href="#">Login</a> 
+         </p>
+         <button>Inscrever-se</button>
+        </form>
+
+        <form class="login">
+        <input type="text" placeholder="usuário"/>
+        <input type="text" placeholder="senha"/>
+        <button>Login</button>
+        <p class="mensagem">Já está cadastrado? <a href="#">Entrar</a> 
+        </p>
+        </form>
+    </div>
+    </div>
+
+
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <script>
+        // Não está funcionando js 
+        // Ideia = Criar outra pagina pelo HTML com os dados para sign up 
+
+        $('.message a').click(function() {
+            $('signup').animate({height: "toggle", opacity: "toggle"}, "slow");
+        )};
+
+    </script>
+
+</body>
+</html>
