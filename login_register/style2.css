@@ -3,19 +3,20 @@ body {
     
 }
 
-.signup {
+.signup2 {
     width: 360px;
     padding: 10% 0 0 ;
     margin: auto;
 }
 
-.title-login {
+.title-login2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0 0 40px 0;
 }
 
-.registro {
+.registro2 {
     position: relative;
+    z-index: 1;
     background: #ffffff;
     max-width: 360px;
     margin: 0 auto 100px;
@@ -25,7 +26,7 @@ body {
     box-shadow: 1px 1px 1px rgb(110, 110, 110);
 }
 
-.registro input {
+.registro2 input {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     outline: 1;
     background: #f2f2f2;
@@ -40,7 +41,7 @@ body {
 
 }
 
-.registro button {
+.registro2 button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     outline: 0;
@@ -55,13 +56,13 @@ body {
 
 }
 
-.signup button: hover,.signup button: active {
+.signup2 button: hover,.signup button: active {
     background: #43a047;
 }
 
 /* Se tirar esse código abaixo vai aparecer tanto a parte de login quanto sign up */
 
-.signup .registro-form {
+.signup2 .registro-form2 {
     display: none;
 
 }

@@ -1,9 +1,34 @@
-body {
-    background-color: rgb(230, 230, 225);
-    
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Sign up</title>
 
-.signup {
+</head>
+<body>
+    <div class="signup">
+        <div class="registro">
+        <div class="title-login">Cadastre-se
+            <form class="registro-form"> 
+                <input type="text" placeholder="usuário"/>
+                <input type="text" placeholder="senha"/>
+                <input type="text" placeholder="e-mail"/>
+                <p class="mensagem">Já possui uma conta? <a href="index.html">Login</a> 
+                </p>
+                <button>Inscrever-se</button>
+               </form>
+        </div>
+</body>
+</html>
+
+<style>
+    body {
+    background-color: rgb(230, 230, 225);
+} 
+
+    .signup {
     width: 360px;
     padding: 10% 0 0 ;
     margin: auto;
@@ -12,7 +37,7 @@ body {
 .title-login {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0 0 40px 0;
-}
+  }
 
 .registro {
     position: relative;
@@ -32,12 +57,12 @@ body {
     width: 100%;
     border: 0;
     margin: 0 0 15px;
+    margin-top: 15px;
     padding: 15px;
     box-sizing: border-box;
     font-size: 14px;
     border-radius: 3px 3px 3px 3px;
     box-shadow: 1px 2px 2px rgb(110, 110, 110);
-
 }
 
 .registro button {
@@ -59,10 +84,5 @@ body {
     background: #43a047;
 }
 
-/* Se tirar esse código abaixo vai aparecer tanto a parte de login quanto sign up */
 
-.signup .registro-form {
-    display: none;
-
-}
-
+</style>
