@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login and Sign up</title>
+    <title>Sign up</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -13,76 +15,17 @@
         <div class="title-login">Cadastre-se
             <form class="registro-form"> 
                 <input type="text" placeholder="usuário"/>
-                <input type="text" placeholder="senha"/>
+                <input type="password" placeholder="senha"/>
                 <input type="text" placeholder="e-mail"/>
-                <p class="mensagem">Já possui uma conta? <a href="index.html">Login</a> 
-                </p>
                 <button>Inscrever-se</button>
-               </form>
+                </form>
         </div>
+        <div>
+            <p class="mensagem">Já possui uma conta? <a href="index.html">Login</a> 
+            </p>
+        </div>
+                
+        
 </body>
 </html>
 
-<style>
-    body {
-    background-color: rgb(230, 230, 225);
-} 
-
-    .signup {
-    width: 360px;
-    padding: 10% 0 0 ;
-    margin: auto;
-}
-
-.title-login {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 0 0 40px 0;
-  }
-
-.registro {
-    position: relative;
-    background: #ffffff;
-    max-width: 360px;
-    margin: 0 auto 100px;
-    padding: 45px;
-    text-align: center;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 1px 1px 1px rgb(110, 110, 110);
-}
-
-.registro input {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    outline: 1;
-    background: #f2f2f2;
-    width: 100%;
-    border: 0;
-    margin: 0 0 15px;
-    margin-top: 15px;
-    padding: 15px;
-    box-sizing: border-box;
-    font-size: 14px;
-    border-radius: 3px 3px 3px 3px;
-    box-shadow: 1px 2px 2px rgb(110, 110, 110);
-}
-
-.registro button {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: uppercase;
-    outline: 0;
-    background: #0077b6;
-    width: 100%;
-    padding: 15px;
-    color: #ffffff;
-    font-size: 14px;
-    cursor: pointer;
-    border-radius: 3px 3px 3px 3px;
-    box-shadow: 1px 3px 3px rgb(110, 110, 110);
-
-}
-
-.signup button: hover,.signup button: active {
-    background: #43a047;
-}
-
-
-</style>

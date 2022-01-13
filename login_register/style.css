@@ -10,14 +10,19 @@ body {
 }
 
 .title-login {
+    font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0 0 40px 0;
 }
 
+.mensagem {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .registro {
     position: relative;
     background: #ffffff;
     max-width: 360px;
+    max-height: 390px;
     margin: 0 auto 100px;
     padding: 45px;
     text-align: center;
@@ -28,10 +33,10 @@ body {
 .registro input {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     outline: 1;
-    background: #f2f2f2;
+    background: #f7f2f2;
     width: 100%;
     border: 0;
-    margin: 0 0 15px;
+    margin: 15px 0 15px;
     padding: 15px;
     box-sizing: border-box;
     font-size: 14px;
@@ -43,15 +48,16 @@ body {
 .registro button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
-    outline: 0;
     background: #0077b6;
     width: 100%;
     padding: 15px;
+    margin-bottom: 0px;
     color: #ffffff;
     font-size: 14px;
     cursor: pointer;
     border-radius: 3px 3px 3px 3px;
     box-shadow: 1px 3px 3px rgb(110, 110, 110);
+    transition: 1s;
 
 }
 
@@ -59,7 +65,12 @@ body {
     background: #43a047;
 }
 
-/* Se tirar esse código abaixo vai aparecer tanto a parte de login quanto sign up */
+.requisitos {
+    font-size: 10px;
+}
+
+
+/* Se tirar esse código abaixo vai aparecer tanto a parte de login quanto sign up 
 
 .signup .registro-form {
     display: none;

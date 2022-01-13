@@ -4,43 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Forgot password </title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="signup">
         <div class="registro">
-        <div class="title-login">Login
-             
+        <div class="title-login">Esqueceu sua senha?
+        </div>    
         <form class="login">
-        <input type="text" placeholder="usuário"/>
-        <input type="password" placeholder="senha"/>
-        <button type="submit">Login</button>
-        </div>
+        <input type="text" placeholder="e-mail"/>
+        <input type="password" placeholder="nova senha"/>
+        <input type="password" placeholder="confirmar nova senha"/>
+        <button>Cadastrar nova senha</button>
         <div>   
-            <p class="mensagem">Não possui uma conta? <a href="register.html">Criar</a> 
+            <p class="mensagem"><a href="index.html">Login</a> 
             </p> 
         </div>
-        <div>
-            <p class="mensagem2"><a href="esqueceusenha.html">Esqueceu sua senha?</a> 
-            </p>
         </div>
+        
         </form>
     </div>
 
 
     <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
     <script>
-
         // Não está funcionando js 
         // Ideia = Criar outra pagina pelo HTML com os dados para sign up 
 
         $('.message a').click(function() {
             $('signup').animate({height: "toggle", opacity: "toggle"}, "slow");
         )};
-
-      
 
     </script>
 
